@@ -1,0 +1,6 @@
+id=cc.mrchi.MiuiEUInstallMiPay
+name=MIUI EU 安装小米钱包
+version=v1.0
+versionCode=1
+author=mrchi
+description=为 MIUI EU 13 安装小米钱包组件，以支持 MiPay、公交卡和门禁卡。
