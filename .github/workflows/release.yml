@@ -1,0 +1,23 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  build-module:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Package module
+        run: |
+          cd module/
+          zip -r ../miui-eu-install-mipay-module.zip *
+
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: miui-eu-install-mipay-module.zip
