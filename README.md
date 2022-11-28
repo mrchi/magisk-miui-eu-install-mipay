@@ -6,19 +6,7 @@
 
 ## 使用方法
 
-1. 拉取本项目代码，将本项目打包成一个 zip 文件。**注意要在项目的顶层目录打包**（即不要包含 `magisk-miui-eu-install-mipay` 目录），zip 文件目录结构：
-
-```
-.
-├── LICENSE
-├── META-INF
-├── customize.sh
-├── module.prop
-├── service.sh
-├── system
-└── uninstall.sh
-```
-
+1. 下载本项目最新 release 中的 `miui-eu-install-mipay-module.zip`；
 2. 将 zip 包传输到手机存储，在 Magisk App 中通过 “从本地安装” 功能安装模块，重启手机。
 3. 重启后会出现 “钱包” App，从 App 中进入 MiPay、公交卡和门禁卡设置页面。
 4. （可选）将三个功能添加到桌面快捷方式，然后冻结 “钱包” App。
